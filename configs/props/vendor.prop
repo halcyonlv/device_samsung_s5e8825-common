@@ -42,6 +42,7 @@ dalvik.vm.lockprof.threshold=500
 
 # Display
 debug.sf.disable_client_composition_cache=0
+debug.sf.enable_hwc_vds=0
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=0
 ro.surface_flinger.has_HDR_display=true
