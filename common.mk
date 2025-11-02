@@ -292,9 +292,6 @@ PRODUCT_PACKAGES += init.s5e8825.ril.rc
 # Samsung DAP
 PRODUCT_PACKAGES += SamsungDAP-custom
 
-# Samsung Doze
-PRODUCT_PACKAGES += SamsungDoze
-
 # Sensors
 PRODUCT_PACKAGES += android.hardware.sensors-service.samsung-multihal
 
