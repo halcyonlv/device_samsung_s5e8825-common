@@ -1,3 +1,3 @@
-unsigned int createOperator(int param_1 __attribute__((unused))) {
-    return 0;
+void *createScenarioOperator(int operator_id __attribute__((unused)), int scenario_id __attribute__((unused))) {
+    return nullptr;
 }
