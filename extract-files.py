@@ -52,9 +52,9 @@ blob_fixups: blob_fixups_user_type = {
                      '1F 20 03 D5 A9 02 80 52 29 80 01 B9 08 65 40 B9')
         .sig_replace('E0 17 9F 1A FD 7B C2 A8 C0 03 5F D6',
                      '20 00 80 52 FD 7B C2 A8 C0 03 5F D6')
-        # Hardcode 'ABOX Speech Volume' value to 7 (low call volume fix)
+        # Speech Volume Fix
         .sig_replace('E0 00 00 B4 E2 03 13 2A 61 FE FF F0',
-                     'E0 00 00 B4 E2 00 80 52 61 FE FF F0'),
+                     'E0 00 00 B4 62 0E 00 11 61 FE FF F0'),
     # Audio - Effects
     'vendor/lib64/soundfx/libswdap.so': blob_fixup()
         .sig_replace('08 09 40 f9 00 01 3f d6',
