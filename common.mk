@@ -104,7 +104,7 @@ PRODUCT_PACKAGES += \
     codec2.vendor.base.policy \
     codec2.vendor.ext.policy
 
-$(call soong_config_set,openmax,UNSUPPORT_10BIT,true)
+$(call soong_config_set_bool,openmax,UNSUPPORT_10BIT,true)
 
 # ConfigStore
 PRODUCT_PACKAGES += disable_configstore
