@@ -126,7 +126,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ADDITIONAL_FLAGS := TARGET_SOC=s5e8825 BRANCH=android12-5.10 KMI_GENERATION=9
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/samsung/s5e8825
-TARGET_KERNEL_CONFIG := s5e8825-unified_defconfig aosp.config
+TARGET_KERNEL_CONFIG := s5e8825-unified_defconfig
 
 # Kernel Modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/configs/kernel/modules.load))
