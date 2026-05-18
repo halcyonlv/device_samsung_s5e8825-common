@@ -7,6 +7,8 @@ i2c-exynos5.ko
 exynos-pmu-if.ko
 dss.ko
 exynos-adv-tracer.ko
+sec_debug_base_early.ko
+sec_debug_extra_info.ko
 exynos_pm_qos.ko
 exynos-s2mpu.ko
 exynos-pd_el3.ko
@@ -101,6 +103,7 @@ samsung_iommu.ko
 samsung-iommu-group.ko
 samsung-secure-iova.ko
 dev_ril_bridge.ko
+sec_debug_mode.ko
 sec_panel_notifier_v2.ko
 mcd-panel.ko
 repeater.ko
@@ -266,6 +269,8 @@ sec_crash_key_user.ko
 sec_argos.ko
 vibrator_vib_info.ko
 sec_vibrator.ko
+sec_debug.ko
+sec_debug_hw_param.ko
 legacy_sec_tclm_v2.ko
 legacy_sec_common_fn.ko
 legacy_sec_cmd.ko
