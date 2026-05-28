@@ -96,8 +96,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshim_crypto.so'),
     # RIL
     'vendor/lib64/libsec-ril.so': blob_fixup()
-        .sig_replace('80 0E 40 F9 E1 03 16 AA 82 0C 80 52 E3 03 15 AA',
-                     '80 0E 40 F9 E1 03 16 AA 82 0C 80 52 03 00 80 D2')
         .add_needed('libprotobuf-cpp-full-21.7.so'),
     'vendor/lib64/libVendorSemTelephonyProps.so': blob_fixup()
         .binary_regex_replace(rb'persist\.ril\.supportNrModefromCp', b'vendor.ril.supportNrModefromCp\x00'),

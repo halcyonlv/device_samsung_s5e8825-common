@@ -128,7 +128,7 @@ vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_34.xml|ebb
 vendor/lib64/libVendorSemDataProps.so|68dae919cb8e4a36246fe6c3548fe7faf398bfcb
 vendor/lib64/libVendorSemTelephonyProps.so|684afb42daeec36fbb37987b06afb236df394a22|d763be849045fc977425c27ba37e8f79407ebaf7
 vendor/lib64/libril_sem.so|489bdbfd9701e3b1979b8cc05133c733cc7f586b
-vendor/lib64/libsec-ril.so|b80d415c8f91c2b0134cc8ce550fb42cf654707f|ee0b6620eb7275880040eda7deea1b75c3c761e6
+vendor/lib64/libsec-ril.so|e0bc275650de556e06a77d1c464e61cbc2d40e24|ceb217b1bddaff1f721099e06b9e3d1be544a85a
 vendor/lib64/libsecril-client.so|08be69e0a57e034f6b0b653aaff201509d7dfc5b
 vendor/lib64/vendor.samsung.hardware.radio-V1-ndk.so|05642682fee7b774b674bee8d5389e42919e2691
 vendor/lib64/vendor.samsung.hardware.radio.bridge-V1-ndk.so|7cea75e71274826e54c9ca5a3664e93d9ce42900
